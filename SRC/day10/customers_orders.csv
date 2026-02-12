@@ -1,0 +1,6 @@
+Order_ID,Customer_Name,Amount,Quantity
+101,Alice,2500.0,5.0
+102,Bob,1800.0,4.0
+103,Charlie,2350.0,3.0
+104,David,2200.0,4.0
+105,Eva,3000.0,6.0
