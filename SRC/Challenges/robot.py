@@ -2,14 +2,14 @@ import tkinter as tk
 from tkinter import messagebox, ttk
 import random
 
-# ---------------- Logic Variables ----------------
+# ---------------- Logic Variables -----------------
 remaining_distance = 0
 total_distance = 0
 speed = 0
 checkpoints = []
 robot_name = ""
 
-# ---------------- Animation Function ----------------
+# ---------------- Animation Function ---------------
 def animate_robot():
     current_x = robot_label.winfo_x()
     if current_x < 400:
@@ -33,7 +33,7 @@ def start_robot():
 
         checkpoints = ["Start"]
         output_box.delete(1.0, tk.END)
-        output_box.insert(tk.END, "🤖 Robot started moving...\n\n")
+        output_box.insert(tk.END, "🤖 Robot started moving...\n")
 
         robot_label.place(x=20, y=260)
         progress["maximum"] = total_distance
